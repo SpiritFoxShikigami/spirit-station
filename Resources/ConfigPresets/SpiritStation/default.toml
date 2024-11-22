@@ -1,0 +1,7 @@
+[game]
+soft_max_players = 80
+hostname = "[EN][LRP][Vanilla] Spirit Station [EU West]"
+desc = "A (currently) vanilla Space Station 14 server with a few configuration tweaks and resource changes."
+
+[hub]
+tags = "lang:en,region:eu_w,rp:low"
