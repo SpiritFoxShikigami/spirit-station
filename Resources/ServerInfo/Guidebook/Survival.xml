@@ -1,38 +1,50 @@
-<Document>   
-# Survival 
-It is generally wise to avoid situations that will cause you harm, because medical can only heal you so much with limited chemicals and medical items and especially when there's nuclear operatives on your doorstep. 
+<Document>
+# Anomalies
+[color=#801ef7]Anomalies[/color] are entities of unknown origin. They are not properly understood and have yet to be conducted research on.
 
-## Identifying your situation 
-Your PDA contains both a vessel name and list of crew currently active in your vessel, a reminder for your name if needed, and your assigned job for the shift, allowing you to quickly assess the situation. 
-
-## Emergency Treatment 
-In the event of a serious emergency, there're a few things you can do to help ensure your long-term survival, including: 
-- If entering critical condition, use the emergency medipen from your emergency box, it'll make sure you don't end up unable to do anything. Emergency medipens can also be used to revive people currently in crit on the floor, and to prolong the amount of time you have to deal with poisons/etc. 
-
-<Box> 
-  <GuideEntityEmbed Entity="EmergencyMedipen"/> 
-</Box>
-
-- Your emergency box contains a breath mask and oxygen tank, which can help you survive longer in a spacing situation. If you're one of the slimepeople, be aware that nitrogen replaces oxygen for you and that your emergency box will start with a red tank of nitrogen replacing the standard blue/yellow oxygen tank. 
-
-<Box> 
-  <GuideEntityEmbed Entity="ClothingMaskBreath"/> 
-  <GuideEntityEmbed Entity="EmergencyOxygenTankFilled"/> 
-</Box>
-
-- If actively bleeding out, or simply wishing to prepare, it's possible to slice up cloth items with a knife or other sharp object and use the resulting cloth to create gauze in the crafting menu to stem bleeding with, however cloth alone can be used to less of a degree in emergencies. 
+Anomalies can present themselves in different shapes and forms, such as being an item, a person, a static object or even an artificial intelligence.
 
 <Box>
-  <GuideEntityEmbed Entity="Gauze"/>
-  <GuideEntityEmbed Entity="MaterialCloth"/>
+<GuideEntityEmbed Entity="AnomalyPyroclastic"/>
+<GuideEntityEmbed Entity="MobHoloClownGuardian"/>
+<GuideEntityEmbed Entity="MobCatShadow"/>
+<GuideEntityEmbed Entity="ToyAi"/>
 </Box>
 
-## Other Various Tips
-- In lieu of an actual health analyzer, simply examining yourself and using the detailed examine is a good way to figure out what wounds you have. 
-- If going blind, carrots are another way to treat the issue (as they contain Oculine, the chemistry drug used to treat blindness) should they be available. 
-- Well-made meals (cooked food not from a vending machine) is generally much better for your overall health and can help heal smaller wounds more quickly. 
-- Simple bed rest can allow some wounds to close up on their own. Medical beds are best for this, providing a sterile surface and support for all damaged body parts, but any bed works. 
-- Actually sleeping on a bed boosts your healing rate even farther. 
-- Meals that contain proteins, such as meat, will tremendously help your body's condition after severe bloodloss. It's still advised to visit a doctor and get treated though. 
-  
-</Document> 
+## Spirit Foundation Classifications
+
+Anomalies receive several classifications depending on these types of conditions:
+
+- Sentience
+- Hostility level
+- Containment difficulty
+
+Additionally, anomalies are also designated a code number and one official designation name:
+
+SF-XYZ-001-A
+
+The code is split with dashes. Each string between the dashes have their own meanings.
+
+String number 1:
+- SF: Spirit Foundation
+This is a header to make it clear, that an anomaly is being mentioned.
+
+String number 2:
+- X: Sentience, designated 0 for non-sentient, 1 for sentient
+- Y: Hostility level, designated 0 for harmless, 1 for safe, 2 for neutral, 3 for hostile, 4 for extremily deadly
+- Z: Containment difficulty, designated 0 for no breach capability, 1 for regular observation required, 2 for regular observation and maintainence required, 3 for impossible to contain
+
+String number 3:
+This string is the unique identification number of the anomaly. This number is simply counted up incrementally for each new-found anomaly, that had been transferred to the foundation.
+
+String number 4:
+Designation for a spawned sub-anomaly of the original anomaly (this part of the code is only added to sub-anomalies). This string usually follows an alphabetical order, such as starting with A, B or C.
+
+## Code examples
+
+- SF-112-001: Shadow Cat
+- SF-000-002: Pillbox Of Gambling
+- SF-121-003: Magical Girl
+- SF-142-004: Duelist
+
+</Document>

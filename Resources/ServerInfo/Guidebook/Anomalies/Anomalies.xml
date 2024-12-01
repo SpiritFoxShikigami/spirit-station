@@ -1,0 +1,50 @@
+<Document>
+  # Anomalies
+  [color=#801ef7]Anomalies[/color] are entities of unknown origin. They are not properly understood and have yet to be conducted research on.
+
+  Anomalies can present themselves in different shapes and forms, such as being an item, a person, a static object or even an artificial intelligence.
+
+  <Box>
+    <GuideEntityEmbed Entity="AnomalyPyroclastic"/>
+    <GuideEntityEmbed Entity="MobHoloClownGuardian"/>
+    <GuideEntityEmbed Entity="MobCatShadow"/>
+    <GuideEntityEmbed Entity="ToyAi"/>
+  </Box>
+
+  ## Spirit Foundation Classifications
+
+  Anomalies receive several classifications depending on these types of conditions:
+
+  - Sentience
+  - Hostility level
+  - Containment difficulty
+
+  Additionally, anomalies are also designated a code number and one official designation name:
+
+  SF-XYZ-001-A
+
+  The code is split with dashes. Each string between the dashes have their own meanings.
+
+  String number 1:
+  - SF: Spirit Foundation
+  This is a header to make it clear, that an anomaly is being mentioned.
+
+  String number 2:
+  - X: Sentience, designated 0 for non-sentient, 1 for sentient
+  - Y: Hostility level, designated 0 for harmless, 1 for safe, 2 for neutral, 3 for hostile, 4 for extremily deadly
+  - Z: Containment difficulty, designated 0 for no breach capability, 1 for regular observation required, 2 for regular observation and maintainence required, 3 for impossible to contain
+
+  String number 3:
+  This string is the unique identification number of the anomaly. This number is simply counted up incrementally for each new-found anomaly, that had been transferred to the foundation.
+
+  String number 4:
+  Designation for a spawned sub-anomaly of the original anomaly (this part of the code is only added to sub-anomalies). This string usually follows an alphabetical order, such as starting with A, B or C.
+
+  ## Code examples
+
+  - SF-112-001: Shadow Cat
+  - SF-000-002: Pillbox Of Gambling
+  - SF-121-003: Magical Girl
+  - SF-142-004: Duelist
+
+</Document>
