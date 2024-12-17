@@ -1393,7 +1393,7 @@
     makeSentient: true
     name: ghost-role-information-monkey-name
     description: ghost-role-information-monkey-description
-    rules: ghost-role-information-syndicate-monkey-reinforcement-rules
+    rules: ghost-role-information-syndicate-reinforcement-rules
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -2796,7 +2796,7 @@
   - type: Bloodstream
     bloodReagent: DemonsBlood
   - type: Damageable
-    damageContainer: Biological
+    damageContainer: BiologicalMetaphysical
     damageModifierSet: Infernal
   - type: Temperature
     heatDamageThreshold: 4000 #They come from hell, so..
